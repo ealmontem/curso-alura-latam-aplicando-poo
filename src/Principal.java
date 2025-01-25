@@ -8,5 +8,13 @@ public class Principal {
         System.out.println("Mi pelicula es: " + miPelicula.nombre);
         System.out.println("Su fecha de lanzamiento es: " + miPelicula.fechaDeLanzamiento);
 
+        Pelicula otraPelicula = new Pelicula();
+        otraPelicula.nombre = "Matrix";
+        otraPelicula.fechaDeLanzamiento = 1998;
+        otraPelicula.duracionEnMinutos = 180;
+
+        System.out.println("Mi otra pelicula es: " + otraPelicula.nombre);
+        System.out.println("Su fecha de lanzamiento es: " + otraPelicula.fechaDeLanzamiento);
+
     }
 }
